@@ -1,0 +1,4 @@
+python-dotenv
+rapidfuzz
+pandas
+tabulate
