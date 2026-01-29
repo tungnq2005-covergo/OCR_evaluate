@@ -1,0 +1,19 @@
+{
+  "seller": {
+    "name": "CÔNG TY CỔ PHẦN ĐẦU TƯ KHOÁNG SẢN - THAN ĐÔNG BẮC",
+    "taxCode": "0305096747",
+    "address": "70 Cộng Hòa, Phường 12, Quận Tân Bình, TP. Hồ Chí Minh, Việt Nam"
+  },
+  "buyer": {
+    "name": "Công ty TNHH Polytex Far Eastern (Việt Nam)",
+    "taxCode": "3702376432",
+    "address": "Lô B_5B_CN, đường DC, KCN Bàu Bàng, Thị trấn Lai Uyên, Huyện Bàu Bàng, Tỉnh Bình Dương, Việt Nam"
+  },
+  "invoice": {
+    "serial": "1C24TDB",
+    "number": "00000165",
+    "date": "2024-05-28",
+    "totalAmountAfterTax": 2760079520,
+    "amountInWords": "Hai tỷ bảy trăm sáu mươi triệu không trăm bảy mươi chín nghìn năm trăm hai mươi đồng chẵn"
+  }
+}

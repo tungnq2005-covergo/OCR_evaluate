@@ -1,0 +1,181 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VAT Invoice",
+  "description": "Schema to extract structured information from VAT invoices.",
+  "type": "object",
+  "properties": {
+    "seller": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Name of the selling company."
+        },
+        "taxCode": {
+          "type": "string",
+          "description": "Tax code of the selling company."
+        },
+        "address": {
+          "type": "string",
+          "description": "Address of the selling company."
+        },
+        "phone": {
+          "type": "string",
+          "description": "Phone number of the selling company."
+        },
+        "fax": {
+          "type": "string",
+          "description": "Fax number of the selling company."
+        },
+        "bankAccount": {
+          "type": "string",
+          "description": "Bank account number of the selling company."
+        },
+        "bankName": {
+          "type": "string",
+          "description": "Bank name where the seller's account is held."
+        }
+      },
+      "required": [
+        "name",
+        "taxCode",
+        "address"
+      ]
+    },
+    "buyer": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Name of the buying company."
+        },
+        "taxCode": {
+          "type": "string",
+          "description": "Tax code of the buying company."
+        },
+        "address": {
+          "type": "string",
+          "description": "Address of the buying company."
+        },
+        "customerName": {
+          "type": "string",
+          "description": "Name of the customer (individual or company representative)."
+        },
+        "bankAccount": {
+          "type": "string",
+          "description": "Bank account number of the buying company."
+        },
+        "bankName": {
+          "type": "string",
+          "description": "Bank name where the buyer's account is held."
+        }
+      },
+      "required": [
+        "name",
+        "taxCode",
+        "address"
+      ]
+    },
+    "invoice": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "serial": {
+          "type": "string",
+          "description": "Serial number of the invoice."
+        },
+        "number": {
+          "type": "string",
+          "description": "Invoice number."
+        },
+        "date": {
+          "type": "string",
+          "description": "Date the invoice was issued (YYYY-MM-DD)."
+        },
+        "paymentMethod": {
+          "type": "string",
+          "description": "Method of payment for the invoice."
+        },
+        "note": {
+          "type": "string",
+          "description": "Any additional notes on the invoice."
+        },
+        "items": {
+          "type": "array",
+          "uniqueItems": false,
+          "items": {
+            "type": "object",
+            "properties": {
+              "description": {
+                "type": "string",
+                "description": "Description of the item or service."
+              },
+              "unit": {
+                "type": "string",
+                "description": "Unit of measurement for the item."
+              },
+              "quantity": {
+                "type": "number",
+                "description": "Quantity of the item."
+              },
+              "unitPrice": {
+                "type": "number",
+                "description": "Unit price of the item."
+              },
+              "amount": {
+                "type": "number",
+                "description": "Total amount for the item (quantity * unit price)."
+              }
+            },
+            "required": [
+              "description",
+              "unit",
+              "quantity",
+              "unitPrice",
+              "amount"
+            ]
+          }
+        },
+        "totalAmountBeforeTax": {
+          "type": "number",
+          "description": "Total amount of all items before tax."
+        },
+        "vatRate": {
+          "type": "string",
+          "description": "VAT rate applied to the invoice."
+        },
+        "vatAmount": {
+          "type": "number",
+          "description": "Total VAT amount."
+        },
+        "totalAmountAfterTax": {
+          "type": "number",
+          "description": "Total amount including tax."
+        },
+        "amountInWords": {
+          "type": "string",
+          "description": "Total amount in words."
+        }
+      },
+      "required": [
+        "serial",
+        "number",
+        "date",
+        "paymentMethod",
+        "items",
+        "totalAmountBeforeTax",
+        "vatRate",
+        "vatAmount",
+        "totalAmountAfterTax",
+        "amountInWords"
+      ]
+    }
+  },
+  "required": [
+    "seller",
+    "buyer",
+    "invoice"
+  ]
+}

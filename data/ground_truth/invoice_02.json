@@ -1,0 +1,19 @@
+{
+  "seller": {
+    "name": "CENTURY SYNTHETIC FIBER CORPORATION",
+    "taxCode": "0302018927",
+    "address": "Khu B1-1 KCN Tây Bắc Củ Chi, Xã Tân An Hội, Huyện Củ Chi, TP. Hồ Chí Minh, Việt Nam"
+  },
+  "buyer": {
+    "name": "CÔNG TY TNHH POLYTEX FAR EASTERN (VIỆT NAM)",
+    "taxCode": "3702376432",
+    "address": "Lô B_5B_CN, đường DC, KCN Bàu Bàng, Thị trấn Lai Uyên, Huyện Bàu Bàng, Tỉnh Bình Dương, Việt Nam"
+  },
+  "invoice": {
+    "serial": "1C24TTA",
+    "number": "00000010",
+    "date": "2024-05-16",
+    "totalAmountAfterTax": 2666268,
+    "amountInWords": "Hai triệu sáu trăm sáu mươi sáu nghìn hai trăm sáu mươi tám đồng chẵn"
+  }
+}

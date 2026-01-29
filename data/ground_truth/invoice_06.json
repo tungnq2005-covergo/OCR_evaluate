@@ -1,0 +1,19 @@
+{
+  "seller": {
+    "name": "CÔNG TY TNHH QUỐC TẾ KIM ĐIỀN",
+    "taxCode": "0313825129",
+    "address": "Lô J24, Đường Số 5C, KCN Lê Minh Xuân, X. Lê Minh Xuân, H.Bình Chánh, Tp.Hồ Chí Minh"
+  },
+  "buyer": {
+    "name": "Công Ty TNHH Polytex Far Eastern (Việt Nam)",
+    "taxCode": "3702376432",
+    "address": "Lô B_5B_CN, đường DC, KCN Bàu Bàng, Thị Trấn Lai Uyên, Huyện Bàu Bàng, Tỉnh Bình Dương, Việt Nam"
+  },
+  "invoice": {
+    "serial": "1C24TKD",
+    "number": "914",
+    "date": "2024-06-01",
+    "totalAmountAfterTax": 49810750,
+    "amountInWords": "Bốn mươi chín triệu tám trăm mười nghìn bảy trăm năm mươi đồng"
+  }
+}

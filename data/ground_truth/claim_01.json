@@ -1,0 +1,14 @@
+{
+  "document_type": "claim_form",
+  "policy_info": {
+    "policyowner_name": "何大伟",
+    "insured_name": "何大伟",
+    "hkid_number": "A234567(9)",
+    "policy_number": "Not Found" 
+  },
+  "claim_details": {
+    "diagnosis": "Anaemia",
+    "admission_date": "28/02/2023",
+    "discharge_date": "02/03/2023"
+  }
+}

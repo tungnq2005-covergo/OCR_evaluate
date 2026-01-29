@@ -1,0 +1,19 @@
+{
+  "seller": {
+    "name": "CÔNG TY TNHH LỮ GIA COMMODITIES",
+    "taxCode": "0314743888",
+    "address": "Văn phòng 02, Tầng 08, Tòa nhà Pearl Plaza, số 561A Điện Biên Phủ, Phường 25, Quận Bình Thạnh, TP Hồ Chí Minh"
+  },
+  "buyer": {
+    "name": "CÔNG TY TNHH POLYTEX FAR EASTERN(VIỆT NAM)",
+    "taxCode": "3702376432",
+    "address": "Lô B_5B_CN, đường DC, KCN Bàu Bàng, Thị trấn Lai Uyên, Huyện Bàu Bàng, Tỉnh Bình Dương, Việt Nam"
+  },
+  "invoice": {
+    "serial": "1C24TLG",
+    "number": "00000104",
+    "date": "2024-05-29",
+    "totalAmountAfterTax": 1810785900,
+    "amountInWords": "Một tỷ tám trăm mười triệu bảy trăm tám mươi lăm nghìn chín trăm đồng chẵn"
+  }
+}

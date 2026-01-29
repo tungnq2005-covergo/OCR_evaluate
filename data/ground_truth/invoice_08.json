@@ -1,0 +1,19 @@
+{
+  "seller": {
+    "name": "CÔNG TY TNHH THƯƠNG MẠI HUANXING",
+    "taxCode": "0314846925",
+    "address": "Số 46, Đường số 1, Khu dân cư Hai Thành, Phường Bình Trị Đông B, Quận Bình Tân, Thành phố Hồ Chí Minh, Việt Nam"
+  },
+  "buyer": {
+    "name": "CÔNG TY TNHH POLYTEX FAR EASTERN (VIỆT NAM)",
+    "taxCode": "3702376432",
+    "address": "Lô B 5B CN, đường DC, KCN Bàu Bàng, Thị trấn Lai Uyên, Huyện Bàu Bàng, Tỉnh Bình Dương, Việt Nam"
+  },
+  "invoice": {
+    "serial": "1C24THX",
+    "number": "212",
+    "date": "2024-05-08",
+    "totalAmountAfterTax": 354888000,
+    "amountInWords": "Ba trăm năm mươi bốn triệu tám trăm tám mươi tám nghìn đồng"
+  }
+}

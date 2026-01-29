@@ -1,0 +1,19 @@
+{
+  "seller": {
+    "name": "CÔNG TY CỔ PHẦN XUẤT NHẬP KHẨU ĐẠI CÁT LỢI",
+    "taxCode": "0310598439",
+    "address": "22/76 Cư xá Lữ Gia, đường Lữ Gia, Phường 15, Quận 11, TP. Hồ Chí Minh, Việt Nam"
+  },
+  "buyer": {
+    "name": "Công ty TNHH Polytex Far Eastern (Việt Nam)",
+    "taxCode": "3702376432",
+    "address": "Lô B_5B_CN, Đường DC, KCN Bàu Bàng, Thị Trấn Lai Uyên, H.Bàu Bàng, T. Bình Dương, Việt Nam"
+  },
+  "invoice": {
+    "serial": "1C24TDC",
+    "number": "7415",
+    "date": "2024-06-10",
+    "totalAmountAfterTax": 54432000,
+    "amountInWords": "Năm mươi bốn triệu bốn trăm ba mươi hai nghìn đồng"
+  }
+}

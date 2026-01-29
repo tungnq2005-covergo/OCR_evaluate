@@ -1,0 +1,19 @@
+{
+  "seller": {
+    "name": "CÔNG TY TNHH NHỰA VÀ BAO BÌ APCO VIỆT NAM",
+    "taxCode": "0107453450",
+    "address": "BT65 Lâm Viên, Khu đô thị Đặng Xá, Xã Đặng Xá, Huyện Gia Lâm, Thành phố Hà Nội, Việt Nam"
+  },
+  "buyer": {
+    "name": "CÔNG TY TNHH POLYTEX FAR EASTERN ( VIỆT NAM)",
+    "taxCode": "3702376432",
+    "address": "Lô B_5B_CN, Đường DC, KCN Bàu Bàng, Thị Trấn Lai Uyên, Huyện Bàu Bàng, Tỉnh Bình Dương, Việt Nam"
+  },
+  "invoice": {
+    "serial": "1C24TAC",
+    "number": "50",
+    "date": "2024-05-29",
+    "totalAmountAfterTax": 839808000,
+    "amountInWords": "Tám trăm ba mươi chín triệu tám trăm lẻ tám nghìn đồng"
+  }
+}
