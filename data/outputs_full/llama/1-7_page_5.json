@@ -1,0 +1,40 @@
+{
+  "seller": {
+    "name": "CÔNG TY CỔ PHẦN XUẤT NHẬP KHẨU ĐẠI CÁT LQI",
+    "taxCode": "0310598439",
+    "address": null,
+    "phone": "02838685618",
+    "fax": "02838685617",
+    "bankAccount": "106999139",
+    "bankName": "Ngân hàng TMCP Á Châu - CN Tân Phú"
+  },
+  "buyer": {
+    "name": "Công ty TNHH Polytex Far Eastern (Việt Nam)",
+    "taxCode": "3702376432",
+    "address": null,
+    "customerName": null,
+    "bankAccount": null,
+    "bankName": null
+  },
+  "invoice": {
+    "serial": "1C24TDC",
+    "number": "7415",
+    "date": "2024-06-10",
+    "paymentMethod": "CK",
+    "note": null,
+    "totalAmountBeforeTax": 50400000,
+    "vatRate": "8%",
+    "vatAmount": 4032000,
+    "totalAmountAfterTax": 54432000,
+    "amountInWords": null,
+    "items": [
+      {
+        "description": "Hóa chất Sodium Sulphate (Na2SO4 10TQSACN)",
+        "unit": "Kg",
+        "quantity": 16000,
+        "unitPrice": 3150,
+        "amount": 50400000
+      }
+    ]
+  }
+}

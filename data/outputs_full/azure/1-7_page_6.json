@@ -1,0 +1,47 @@
+{
+  "seller": {
+    "name": "CÔNG TY TNHH QUỐC TẾ KIM ĐIỀN",
+    "taxCode": "0313825129",
+    "address": "Lô J24 , Đường Số 5C, KCN Lê Minh Xuân, X. Lê Minh Xuân, H.Bình Chánh, Tp.Hồ Chí Minh.",
+    "phone": "02836367487",
+    "fax": null,
+    "bankAccount": "6303823001",
+    "bankName": "Indovinabank Chi nhánh Nhơn Trạch, Đồng Nai"
+  },
+  "buyer": {
+    "name": "Công Ty TNHH Polytex Far Eastern (Việt Nam)",
+    "taxCode": "3702376432",
+    "address": "Lô B_5B_CN, đường DC, KCN Bàu Bàng, Thị Trấn Lai Uyên, Huyện Bàu Bàng, Tỉnh Bình Dương, Việt Nam",
+    "customerName": null,
+    "bankAccount": null,
+    "bankName": null
+  },
+  "invoice": {
+    "serial": "1C24TKD",
+    "number": "801",
+    "date": "2024-05-11",
+    "paymentMethod": "TM/CK",
+    "note": null,
+    "totalAmountBeforeTax": 32422500,
+    "vatRate": "10%",
+    "vatAmount": 3242250,
+    "totalAmountAfterTax": 35664750,
+    "amountInWords": "Ba mươi lăm triệu sáu trăm sáu mươi bốn nghìn bảy trăm năm mươi đồng",
+    "items": [
+      {
+        "description": "Neocron Brill. Red HFW-JJB 300% BS",
+        "unit": "Kg",
+        "quantity": 504,
+        "unitPrice": 514400,
+        "amount": 25720000
+      },
+      {
+        "description": "Neocron Blue HFW- CBN 02 BS",
+        "unit": "Kg",
+        "quantity": 25,
+        "unitPrice": 268100,
+        "amount": 6702500
+      }
+    ]
+  }
+}

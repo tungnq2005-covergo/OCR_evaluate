@@ -1,0 +1,18 @@
+{
+  "isMedicalDocument": true,
+  "claimType": "HOSP",
+  "treatmentDate": "06022022",
+  "clinicName": null,
+  "clinicSpeciality": null,
+  "doctorDetails": {
+    "doctorName": "黄尔明",
+    "doctorSpeciality": null,
+    "doctorCode": null
+  },
+  "diagnosis": {
+    "description": null,
+    "code": null
+  },
+  "currency": null,
+  "totalAmount": null
+}

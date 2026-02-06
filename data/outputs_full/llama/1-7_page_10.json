@@ -1,0 +1,61 @@
+{
+  "seller": {
+    "name": "ĐÔNG TY TNHH THƯƠNG MẠI HƯANXING",
+    "taxCode": "0314846925",
+    "address": "Thành phố Hồ Chí Minh, Việt Nam",
+    "phone": "028 62874050",
+    "fax": null,
+    "bankAccount": "060170644551",
+    "bankName": "Ngân Hàng Sacombank-Chi Nhánh Phú Lâm"
+  },
+  "buyer": {
+    "name": "TÊN CÔNG TY",
+    "taxCode": "370237632",
+    "address": "CDC Tn",
+    "customerName": null,
+    "bankAccount": null,
+    "bankName": null
+  },
+  "invoice": {
+    "serial": "1C24THX",
+    "number": "213",
+    "date": "2024-05-08",
+    "paymentMethod": "Chuyển khoản",
+    "note": null,
+    "totalAmountBeforeTax": 463200000,
+    "vatRate": "8%",
+    "vatAmount": 37056000,
+    "totalAmountAfterTax": 500256000,
+    "amountInWords": null,
+    "items": [
+      {
+        "description": "Kim dt Needle VOTA LS 122.41",
+        "unit": "Cây",
+        "quantity": 18000,
+        "unitPrice": 9600,
+        "amount": 172800000
+      },
+      {
+        "description": "Kim dt Needle VO LS 122.41",
+        "unit": "Cây",
+        "quantity": 18000,
+        "unitPrice": 9600,
+        "amount": 172800000
+      },
+      {
+        "description": "Kim dt Needle VOTA LS 65.41",
+        "unit": "Cây",
+        "quantity": 6000,
+        "unitPrice": 9800,
+        "amount": 58800000
+      },
+      {
+        "description": "Kim dt Needle VO LS 65.41",
+        "unit": "Cây",
+        "quantity": 6000,
+        "unitPrice": 9800,
+        "amount": 58800000
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "seller": {
+    "name": "CÔNG TY CỔ PHẦN CƠI THẾ KỶ CENTURY SYNTHETIC FIBER CORPORATION",
+    "taxCode": "0302018927",
+    "address": "Khu B1-1 KCN Tây Bắc Củ Chi, Xã Tân An Hội, Huyện Củ Chi, TP. Hồ Chí Minh, Việt Nam",
+    "phone": "02837907565",
+    "fax": "(028) 3790 7566",
+    "bankAccount": null,
+    "bankName": null
+  },
+  "buyer": {
+    "name": "CÔNG TY TNHH POLYTEX FAR EASTERN(VIỆT NAM)",
+    "taxCode": "3702376432",
+    "address": "Lô B_5B_CN, đường DC, KCN Bàu Bàng, Thị trấn Lai Uyên, Huyện Bàu Bàng, Tỉnh Bình Dương, Việt Nam",
+    "customerName": null,
+    "bankAccount": null,
+    "bankName": null
+  },
+  "invoice": {
+    "serial": "1C24TTA",
+    "number": "00000010",
+    "date": "2024-05-16",
+    "paymentMethod": "Chuyển khoản",
+    "note": null,
+    "totalAmountBeforeTax": 2423880,
+    "vatRate": "10%",
+    "vatAmount": 242388,
+    "totalAmountAfterTax": 2666268,
+    "amountInWords": "Hai triệu sáu trăm sáu mươi sáu nghìn hai trăm sáu mươi tám đồng chẵn",
+    "items": [
+      {
+        "description": "100 % Polyester Draw Textured Yarn I P/No: 200/288/1 Semi Dull Raw White - One Heater Slight Air Intermingled",
+        "unit": "KG",
+        "quantity": 40,
+        "unitPrice": 60597,
+        "amount": 2423880
+      }
+    ]
+  }
+}

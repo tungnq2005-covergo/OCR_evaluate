@@ -1,0 +1,47 @@
+{
+  "seller": {
+    "name": "CONG TY TNHH QUOC KIM DIEN",
+    "taxCode": "0313825129",
+    "address": null,
+    "phone": "02836367487",
+    "fax": null,
+    "bankAccount": null,
+    "bankName": null
+  },
+  "buyer": {
+    "name": null,
+    "taxCode": "3776",
+    "address": null,
+    "customerName": null,
+    "bankAccount": null,
+    "bankName": null
+  },
+  "invoice": {
+    "serial": "1C24TKD",
+    "number": "914",
+    "date": "2024-02-01",
+    "paymentMethod": "TM/CK",
+    "note": null,
+    "totalAmountBeforeTax": 45282500.0,
+    "vatRate": "10%",
+    "vatAmount": 4528250.0,
+    "totalAmountAfterTax": 49810750.0,
+    "amountInWords": null,
+    "items": [
+      {
+        "description": "Neocron Blue HFW-CBN 02 BS",
+        "unit": "Kg",
+        "quantity": 25.0,
+        "unitPrice": 268100.0,
+        "amount": 6702500.0
+      },
+      {
+        "description": "Neocron Brill Red HFW-JJB 300% 01 BS",
+        "unit": "Kg",
+        "quantity": 75.0,
+        "unitPrice": 6702500.0,
+        "amount": 51440000.0
+      }
+    ]
+  }
+}

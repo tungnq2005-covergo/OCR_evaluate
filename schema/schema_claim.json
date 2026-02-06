@@ -1,0 +1,98 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generali HK (GenBravo) - v3.5",
+  "description": "A schema to validate data captured from a claim document via OCR, based on the provided specification.",
+  "type": "object",
+  "properties": {
+    "isMedicalDocument": {
+      "type": "boolean",
+      "description": "Analyze the attached document. If it is a medical document, such as a prescription, a doctor's referral, a medical test result, or an invoice for a medical service or prescribed item, return true. If it is a standard retail sales receipt for a consumer good, like clothing, electronics, or non-prescription sunglasses, return false. Base your answer only on the content of the document."
+    },
+    "claimType": {
+      "type": "string",
+      "description": "Type of the claim. Should be one of OutPatient (OP), Dental (DEN), Hospitalized Treatment (HOSP), Maternity related treatment (MAT). If the type is not clear or unknown return OP. Note if a hospital name is mentioned in the document AND any of room charge, meal charge, ward round, surgeon fee or operation fee is mentioned in a receipt item, consider it as HOSP. If these conditions fail and still a hospital name is mentioned, return OP",
+      "enum": [
+        "OP",
+        "DEN",
+        "HOSP",
+        "MAT"
+      ]
+    },
+    "treatmentDate": {
+      "type": "string",
+      "description": "Date of treatment in DDMMYYYY format. YYYY should always be year 2025 or greater. Try to identify the closest match for YYYY"
+    },
+    "clinicName": {
+      "type": "string",
+      "description": "Full legal name of the clinic or medical facility. If unavailable or isMedicalDocument = false, leave blank. Only use English name if both chinese and english names are available"
+    },
+    "clinicSpeciality": {
+      "type": "string",
+      "description": "The speciality practice of the clinic. If the clinic is general TCM where it provides all types of TCM services, return TCM - General",
+      "enum": [
+        "TCM - Bonesetter",
+        "TCM - Acupuncture",
+        "TCM - Herbalist",
+        "Western Medicine",
+        "TCM - General"
+      ],
+      "default": "TCM - General"
+    },
+    "doctorDetails": {
+      "type": "object",
+      "description": "Details of the physician or doctor.",
+      "additionalProperties": false,
+      "properties": {
+        "doctorName": {
+          "type": "string",
+          "description": "Name of the physician or doctor. If the doctor name can be found at multiple places, return the longest name. If the doctor name is not available return clinic name identified earlier. If isMedicalDocument = false, return emtpy. Only use English name if both chinese and english names are available. Only return names that makes sense"
+        },
+        "doctorSpeciality": {
+          "type": "string",
+          "description": "Speciality of the doctor. If not found, leave empty"
+        }
+      },
+      "required": [
+        "doctorName",
+        "doctorSpeciality",
+        "doctorCode"
+      ]
+    },
+    "diagnosis": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "description": {
+          "type": "string",
+          "description": "Medical Diagnosis. If there is more than one diagnosis, return only the first one. For an example, if the document says '鼻鼽病, 頭痛病', only return '鼻鼽病'.  If both treatment and diagnosis are present, return only the diagnosis . For an example, if both 左肩扭傷 and 跌打 are present, you should return 左肩扭傷 only since 跌打 is a treatment, not a diagnosis.  MUST contain medically relevant terms in the source language. Return empty for the cases where diagnosis is Consultation, Body check, X-ray or if you can not find a diagnosis. If only treatment is present, but not the diagnosis, return emtpy. For an example, scaling and polishing of teeth is a treatment, not a diagnosis. If diagnosis is present in chinese and english only return the english version"
+        },
+        "code": {
+          "type": "string",
+          "description": "Return the closest matching ICD-10 code for the diagnosis identified in the document. If no ICD-10 code can be found, return blank"
+        }
+      },
+      "required": [
+        "description",
+        "code"
+      ]
+    },
+    "currency": {
+      "type": "string",
+      "description": "3-letter ISO 4217 currency code for the receipt amount (e.g., HKD)."
+    },
+    "totalAmount": {
+      "type": "number",
+      "description": "Total receipt amount. If there are multiple receipts, add the receipt amounts together to show the totalAmount. Must be a positive value with up to two decimal places."
+    }
+  },
+  "required": [
+    "isMedicalDocument",
+    "treatmentDate",
+    "clinicName",
+    "clinicSpeciality",
+    "doctorDetails",
+    "diagnosis",
+    "currency",
+    "totalAmount"
+  ]
+}

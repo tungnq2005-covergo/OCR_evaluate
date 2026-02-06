@@ -1,0 +1,18 @@
+{
+  "isMedicalDocument": true,
+  "claimType": "HOSP",
+  "treatmentDate": "06/02/2022",
+  "clinicName": null,
+  "clinicSpeciality": null,
+  "doctorDetails": {
+    "doctorName": null,
+    "doctorSpeciality": null,
+    "doctorCode": null
+  },
+  "diagnosis": {
+    "description": null,
+    "code": null
+  },
+  "currency": null,
+  "totalAmount": null
+}

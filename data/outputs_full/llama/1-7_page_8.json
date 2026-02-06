@@ -1,0 +1,40 @@
+{
+  "seller": {
+    "name": "CÔNG TY TNHH LÜ GIA COMMODITIES",
+    "taxCode": "00BEB042E48F6B47A585077E494A94D617",
+    "address": "Vn phòng 02, Tâng 08, Tòa nhà Pearl Plaza, só 561A Din Bien Phui, Phuòng 25, Qun Binh Thanh, TP Hò Chí Minh",
+    "phone": "(028) 7300 1494",
+    "fax": null,
+    "bankAccount": "1190374000",
+    "bankName": "Tai Ngn Hàng BIDV - Chi Nhánh Nam Ky Khöi Nghia"
+  },
+  "buyer": {
+    "name": "CÔNG TY TNHH POLYTEX FAR EASTERN(VIET NAM)",
+    "taxCode": "3702376432",
+    "address": "LBBN,DC, KC Bu Bg ThLi, Hu B B TB, Vit Nam",
+    "customerName": null,
+    "bankAccount": null,
+    "bankName": null
+  },
+  "invoice": {
+    "serial": "1C24TLG",
+    "number": "00000104",
+    "date": "2024-05-29",
+    "paymentMethod": "TM/CK",
+    "note": null,
+    "totalAmountBeforeTax": 1646169,
+    "vatRate": "10%",
+    "vatAmount": 164616.9,
+    "totalAmountAfterTax": 1810785.9,
+    "amountInWords": "Một triệu tám trăm lẻ mười nghìn bảy trăm tám mươi lăm đồng",
+    "items": [
+      {
+        "description": "Than Indonesia theo don hàng VH24200",
+        "unit": "6600",
+        "quantity": 2.15,
+        "unitPrice": 1646169,
+        "amount": 1646169
+      }
+    ]
+  }
+}

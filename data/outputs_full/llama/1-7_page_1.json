@@ -1,0 +1,40 @@
+{
+  "seller": {
+    "name": "CÔNG TY TNHH NHỰA VÀ BAO BÌ APCO VIỆT NAM",
+    "taxCode": "0107453450",
+    "address": "BT65 Lâm Viên, Khu đô thị Dương Xá, Xã Dương Xá, Huyện Gia Lâm, Thành phố Hà Nội, Việt Nam",
+    "phone": "0913 633 123",
+    "fax": "0243 206 6863",
+    "bankAccount": "020042253686",
+    "bankName": "Sacombank - CN Long Biên, PGD Gia Lâm"
+  },
+  "buyer": {
+    "name": "CÔNG TY TNHH POLYTEX FAR EASTERN (VIỆT NAM)",
+    "taxCode": "3702376432",
+    "address": "Lò B_5B_CN, Đường DC, KCN Bàu Bàng, Thị Trấn Lai Uyên, Huyện Bàu Bàng, Tỉnh Bình Dương, Việt Nam",
+    "customerName": null,
+    "bankAccount": null,
+    "bankName": null
+  },
+  "invoice": {
+    "serial": "S6",
+    "number": "50",
+    "date": "2024-05-29",
+    "paymentMethod": "CK",
+    "note": null,
+    "totalAmountBeforeTax": 777600000,
+    "vatRate": "8%",
+    "vatAmount": 62208000,
+    "totalAmountAfterTax": 839808000,
+    "amountInWords": "Tám trăm ba mươi chín triệu tám trăm lẻ tám nghìn đồng",
+    "items": [
+      {
+        "description": "Bao PP 940mm*940mm*1280mm",
+        "unit": "PC/Cái",
+        "quantity": 4800,
+        "unitPrice": 162000,
+        "amount": 777600000
+      }
+    ]
+  }
+}

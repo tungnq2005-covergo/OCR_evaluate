@@ -1,0 +1,40 @@
+{
+  "seller": {
+    "name": "CENTURY SYNTHETIC FIBER CORPORATION",
+    "taxCode": "0302018927",
+    "address": null,
+    "phone": "02837907565",
+    "fax": "(028) 3790 7566",
+    "bankAccount": null,
+    "bankName": null
+  },
+  "buyer": {
+    "name": "CÔNG TY TNHH POLYTEX FAR EASTERN (VIET NAM)",
+    "taxCode": "3702376432",
+    "address": null,
+    "customerName": null,
+    "bankAccount": null,
+    "bankName": null
+  },
+  "invoice": {
+    "serial": "1C24TTA",
+    "number": "00000010",
+    "date": "2024-05-16",
+    "paymentMethod": "Chuyển khoản",
+    "note": null,
+    "totalAmountBeforeTax": 2423880,
+    "vatRate": "10%",
+    "vatAmount": 242388,
+    "totalAmountAfterTax": 2666268,
+    "amountInWords": null,
+    "items": [
+      {
+        "description": "100 % Polyester Draw Textured Yarn P/No: 200/288/1 Semi Dull Raw White - One Heater Slight Air Intermingled",
+        "unit": "KG",
+        "quantity": 40,
+        "unitPrice": 60597,
+        "amount": 2423880
+      }
+    ]
+  }
+}

@@ -3,8 +3,8 @@
     "name": "CÔNG TY TNHH NHỰA VÀ BAO BÌ APCO VIỆT NAM",
     "taxCode": "0107453450",
     "address": "BT65 Lâm Viên, Khu đô thị Đặng Xá, Xã Đặng Xá, Huyện Gia Lâm, Thành phố Hà Nội, Việt Nam",
-    "phone": "0913633123",
-    "fax": "02432066863",
+    "phone": "0913 633 123",
+    "fax": "0243 206 6863",
     "bankAccount": "020042253686",
     "bankName": "Sacombank - CN Long Biên, PGD Gia Lâm"
   },
@@ -17,24 +17,24 @@
     "bankName": null
   },
   "invoice": {
-    "serial": null,
-    "number": null,
+    "serial": "1C24TAC",
+    "number": "50",
     "date": "2024-05-29",
     "paymentMethod": "CK",
     "note": null,
+    "totalAmountBeforeTax": 777600000,
+    "vatRate": "8%",
+    "vatAmount": 62208000,
+    "totalAmountAfterTax": 839808000,
+    "amountInWords": "Tám trăm ba mươi chín triệu tám trăm lẻ tám nghìn đồng",
     "items": [
       {
         "description": "Bao PP 940mm*940mm*1280mm",
         "unit": "PC/Cái",
-        "quantity": 4800.0,
-        "unitPrice": 162000.0,
-        "amount": 777600000.0
+        "quantity": 4800,
+        "unitPrice": 162000,
+        "amount": 777600000
       }
-    ],
-    "totalAmountBeforeTax": 777600000.0,
-    "vatRate": "8%",
-    "vatAmount": 62208000.0,
-    "totalAmountAfterTax": 839808000.0,
-    "amountInWords": "Tám trăm ba mươi chín triệu tám trăm lẻ tám nghìn đồng"
+    ]
   }
 }

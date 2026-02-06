@@ -1,0 +1,40 @@
+{
+  "seller": {
+    "name": "CÔNG TY CỔ PHẦN ĐẦU TƯ KHOÁNG SẢN - THAN ĐÔNG BẮC",
+    "taxCode": "0305096747",
+    "address": "70 Cộng Hòa, Phường 12, Quận Tân Bình, TP. Hồ Chí Minh, Việt Nam",
+    "phone": "028.62972378",
+    "fax": "028.62972377",
+    "bankAccount": "002016689999",
+    "bankName": "Ngân hàng TMCP Bưu điện Liên Việt - PGD Sài Gòn"
+  },
+  "buyer": {
+    "name": "Công ty TNHH Polytex Far Eastern (Việt Nam)",
+    "taxCode": "3702376432",
+    "address": "Lô B_5B_CN, đường DC, KCN Bàu Bàng, Thị trấn Lai Uyên, Huyện Bàu Bàng, Tỉnh Bình Dương, Việt Nam",
+    "customerName": "Jean Thi Ngân",
+    "bankAccount": null,
+    "bankName": null
+  },
+  "invoice": {
+    "serial": "1C24TDB",
+    "number": "00000165",
+    "date": "2024-05-28",
+    "paymentMethod": "Chuyển khoản",
+    "note": null,
+    "totalAmountBeforeTax": 2509163200,
+    "vatRate": "10%",
+    "vatAmount": 250916320,
+    "totalAmountAfterTax": 2760079520,
+    "amountInWords": "Hai tỷ bày trăm sáu mươi triệu không trăm bảy mươi chín nghìn năm trăm hai mươi đồng chăn",
+    "items": [
+      {
+        "description": "Than đá Indonesia",
+        "unit": "Tấn",
+        "quantity": 1242.16,
+        "unitPrice": 2020000,
+        "amount": 2509163200
+      }
+    ]
+  }
+}

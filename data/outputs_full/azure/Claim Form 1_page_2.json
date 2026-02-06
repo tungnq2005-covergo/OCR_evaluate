@@ -1,0 +1,11 @@
+{
+  "isMedicalDocument": null,
+  "claimType": null,
+  "treatmentDate": null,
+  "clinicName": null,
+  "clinicSpeciality": null,
+  "doctorDetails": null,
+  "diagnosis": null,
+  "currency": "HKD",
+  "totalAmount": null
+}
